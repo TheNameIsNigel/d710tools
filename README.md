@@ -13,11 +13,12 @@ Modify your `.repo/local_manifest.xml` as follows:
 <?xml version="1.0" encoding="UTF-8"?>
   <manifest>
     <project name="EpicCM/d710tools.git" path="d710tools" remote="github" revision="ics" />
-    <project name="EpicCM/android_device_samsung_d710" path="device/samsung/d710" remote="github" revision="smdk" />
-    <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="ics" />
-    <project name="EpicAOSP/android_kernel_samsung_smdk4210_new" path="kernel/samsung/smdk4210" remote="github" revision="ics" />
-    <project name="mcrosson/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="github" revision="ics" />
-    <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="ics" />
+    <project name="dastin1015/android_device_samsung_d710" path="device/samsung/d710" remote="github" revision="cm-10.1" />
+    <project name="dastin1015/android_kernel_samsung_smdk4210" path="kernel/samsung/smdk4210" remote="github" revision="cm-10.1" />
+    <project name="ProjectOpenCannibal/android_device_lge_ls840" path="device/lge/ls840" remote="github" revision="cm-10.1" />
+    <project name="thenameisnigel/android_kernel_lge_ls840" path="kernel/lge/ls840" remote="github" revision="cm-10.1" />
+    <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-10.1 />
+    <project name="ProjectVendor/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="ics" />
   </manifest>
 ```
 
