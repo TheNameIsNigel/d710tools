@@ -17,7 +17,7 @@ Modify your `.repo/local_manifest.xml` as follows:
     <project name="dastin1015/android_kernel_samsung_smdk4210" path="kernel/samsung/smdk4210" remote="github" revision="cm-10.1" />
     <project name="ProjectOpenCannibal/android_device_lge_ls840" path="device/lge/ls840" remote="github" revision="cm-10.1" />
     <project name="thenameisnigel/android_kernel_lge_ls840" path="kernel/lge/ls840" remote="github" revision="cm-10.1" />
-    <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-10.1 />
+    <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-10.1" />
     <project name="ProjectVendor/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="ics" />
   </manifest>
 ```
